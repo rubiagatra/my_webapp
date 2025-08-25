@@ -1,0 +1,46 @@
+# Leiningen
+.lein-repl-history
+target/
+classes/
+checkouts/
+.lein-failures
+.lein-deps-history
+
+# Boot
+boot-target/
+tmp/
+.nrepl-port
+.nrepl-history
+
+# Clojure CLI (deps.edn)
+.cpcache/
+.clj-kondo/cache/
+.lsp/
+.local/
+deps/
+
+# Editor/IDE specific files
+.idea/
+.project
+.classpath
+.settings/
+.vscode/
+*.swp
+*~
+# Emacs
+#*#
+.#*
+.emacs.d/
+# Vim
+*.un~
+
+# Compiled files
+*.jar
+*.class
+
+# Test reports
+test-report.xml
+
+# User-specific configuration
+.env
+.envrc
